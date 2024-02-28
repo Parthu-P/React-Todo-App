@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Todo from './component/todo/Todo';
 import PropsDemo from './props-demo/PropsDemo';
+import Propsdemo from './components-library/Propsdemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PropsDemo/>
+    <Propsdemo/>
   </React.StrictMode>
 );
 
